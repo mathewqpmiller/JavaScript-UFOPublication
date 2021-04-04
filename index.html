@@ -1,3 +1,5 @@
+<!-- JavaScript-UFO_Sightings_Publication level 1 html-->
+
 <!DOCTYPE html>
 <html>
 
@@ -7,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- Location where the style.css file lives -->
   <link rel="stylesheet" href="unidentified_flying_objects_level_2/static/css/style.css">
 </head>
 
@@ -16,20 +19,22 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">UFO Sightings Finder
+            <!-- Location where the header svg file lives -->
             <img class="nav-ufo" src="unidentified_flying_objects_level_2/static/images/ufo5.svg">
           </a>
         </div>
       </div>
     </nav>
     <div class="hero text-center">
+      <!-- Webpage header -->
       <h1> North American UFO Sightings</h1>
           <p>Interested to learn about specific sightings?  Search a date to find out more. </p>
     </div>
     <!-- Create a containter that will hold both the filter search form and table data -->
     <div class="container">
       <div class="row margin-top-50">
+        <!-- Define the first column area as 'filters' for ufo filter panel -->
         <div class="col-md-2">
-          <!-- Define the first column object for the filters -->
           <aside class="filters">
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
@@ -40,6 +45,7 @@
                       <!-- Create the item to filter-->
                       <li class="filter list-group-item">
                         <label for="date">Search Date</label>
+                        <!-- Identify the datetime value as the filterable data -->
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
                     </ul>
@@ -50,11 +56,13 @@
             </div>
           </aside>
         </div>
+        <!-- Define the second column area as 'table-area' for ufo table data -->
         <div class="col-md-10">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead>
                 <tr>
+                  <!-- For the UFO table, create column heads for the thread -->
                   <th class="table-head">DATE</th>
                   <th class="table-head">CITY</th>
                   <th class="table-head">STATE</th>
@@ -75,6 +83,7 @@
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <!-- Path location where the JavaScript files live in the repository -->
   <script src="unidentified_flying_objects_level_2/static/js/data.js"></script>
   <script src="unidentified_flying_objects_level_2/static/js/app.js"></script>
 </body>
