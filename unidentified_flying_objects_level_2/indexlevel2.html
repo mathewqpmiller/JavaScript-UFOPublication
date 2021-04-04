@@ -42,38 +42,48 @@
                 <form id="form">
                   <div class="form-group">
                     <ul class="list-group" id="filters">
+                        <!-- Create the item to filter-->
                       <li class="filter list-group-item">
                         <label for="date">Search Date</label>
+                        <!-- Identify the datetime value as the filterable data input -->
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
                       <li class="filter list-group-item">
                         <label for="date">Search City</label>
+                        <!-- Identify the city value as the filterable data input -->
                         <input class="form-control" id="city" type="text" placeholder="fresno">
                       </li>
                       <li class="filter list-group-item">
                         <label for="date">Search State</label>
+                        <!-- Identify the state value as the filterable data input -->
                         <input class="form-control" id="state" type="text" placeholder="ca">
                       </li>
                       <li class="filter list-group-item">
                         <label for="date">Search Country</label>
+                        <!-- Identify the country value as the filterable data input -->
                         <input class="form-control" id="country" type="text" placeholder="us">
                       </li>
                       <li class="filter list-group-item">
                         <label for="date">Search Shape</label>
+                        <!-- Identify the shape value as the filterable data input -->
                         <input class="form-control" id="shape" type="text" placeholder="circle">
                       </li>
                     </ul>
                   </div>
+                  <!-- Create the button to execute the filter -->
+                  <button id="filter-btn" type="button" class="btn btn-default"> SEARCH </button>
                 </form>
               </div>
             </div>
           </aside>
         </div>
+        <!-- Define the second column area as 'table-area' for ufo table data -->
         <div class="col-md-10">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead>
                 <tr>
+                    <!-- For the UFO table, create column heads for the thread -->
                   <th class="table-head">DATE</th>
                   <th class="table-head">CITY</th>
                   <th class="table-head">STATE</th>
@@ -94,6 +104,7 @@
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <!-- Path location where the JavaScript files live in the repository -->
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
 </body>
