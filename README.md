@@ -5,7 +5,7 @@ University of Oregon: Data Analytics Boot Camp repository for homework assignmen
 
 ## Introduction:
 
-For this assignment I needed to build a web page table from a provided dataset of UFO sightings.  In order to do this, I had to create a function in JavaScript that would read in the data from one file and return it to the web page.  For more detailed explanations of the steps involved, please see the app.js file with my step by step commented code.
+For this assignment I needed to build a web page table from a provided dataset of UFO sightings.  Additionaly, the table needed to be filterable based on certain criteria.  In order to do this I created a function in JavaScript that read in the data from one file and return it to the web page.  I then created an event handler that ran several functions to filter the read in table data.  For more detailed explanations of the steps involved, please see the app.js file with my step by step commented code.
 
 ### Level 1 Tasks: Completed
 
