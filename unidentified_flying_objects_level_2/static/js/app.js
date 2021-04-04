@@ -1,21 +1,21 @@
 // JavaScript-UFO_Sightings_Publication app
 
-// Create a reference to the table body
+// Create a reference to the table body that will be in the web page
 let tbody = d3.select("tbody");
-// From data.js
+// Create variable equal to data variable in the data.js
 var tableData = data;
 
-// Function Build Table
+// Define function to build table out of data.js file
 function buildTable(data){
-    // Start By Clearing Existing Data
+    // Clear tbody variable data
     tbody.html("");
-    // Loop Through `data`
+    // Create a loop that iterates through data.js to find each row
     data.forEach((dataRow) => {
-        // Append Table Row `tr` to the Table Body `tbody`
+        // For each new row found, append row `tr` to the html table body `tbody`
         let row = tbody.append("tr");
-        // `Object.values` & `forEach` to Iterate Through Values
+        // Apply a value for each data row value found that will correspond to the table body column
         Object.values(dataRow).forEach((val) => {
-            // Append a Cell to the Row for Each Value
+            // Iterate through and append a cell to the row for each new value to fill out table
             let cell = row.append("td");
             cell.text(val);
         });
