@@ -21,23 +21,24 @@ function buildTable(data){
         });
     })
 }
-// Create an event handler function for the Search Date filter
+// Create an event handler function for the UFO sighting "Search by Date" filter
 function handleClick(){
-    // Prevents the Page from Refreshing
+    // Cancels the event if it is cancelable
     d3.event.preventDefault();
-    // Select HTML Input Element & Get the Value Property of that Input Element
+    // Define variable that represents the request for the datetime value as the search criteria
     let date = d3.select("#datetime").property("value");
+    // Create copy of tableData variable with a new name 'filterData' to use in if statement
     let filterData = tableData;
 
-    // Check if a Date was Entered & Filter Data Using that Date;
+    // If 'date' variable is equal to {}
     if(date) {
-        // Apply Filter to the Table Data to Only Keep Rows Where datetime Value Matches the Filter Value
+        // Filter through the data.js data, determine if datetime value input equals 'date' and return results
         filterData = filterData.filter((row) => row.datetime === date);
     }
-    // Build Table with Filtered Data
+    // Build a table from the filtered data
     buildTable(filterData);
 }
-// `on` Function to attach an Event to the Handler Function
+// Activate the defined event handler function with .on("click")
 d3.selectAll("#filter-btn").on("click", handleClick);
-// Build Table with data.js
+// Re-build Table with data.js
 buildTable(tableData);
