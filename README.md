@@ -1,3 +1,4 @@
+
 # JavaScript Homework - JavaScript and DOM Manipulation
 
 University of Oregon: Data Analytics Boot Camp repository for homework assignment number 11.
@@ -7,7 +8,7 @@ University of Oregon: Data Analytics Boot Camp repository for homework assignmen
 
 For this assignment I needed to build a web page table from a provided dataset of UFO sightings.  Additionaly, the table needed to be filterable based on certain criteria.  In order to do this I created a function in JavaScript that read in the data from one file and return it to the web page.  I then created an event handler that ran several functions to filter the read in table data.  For more detailed explanations of the steps involved, please see the app.js file with my step by step commented code.
 
-### Level 1 Tasks: Search Date
+### Level 1 Task: Search by Date
 
 1) Create a web page or use the index.html file provided. I chose to use the web page provided in this assignment.
 
@@ -18,10 +19,10 @@ For this assignment I needed to build a web page table from a provided dataset o
 4) Create a search event, that uses the datetime value, to filter the appended sightings table for matches.
 
 <p align="center">
-    <img src="unidentified_flying_objects_level_1/static/images/level1.png" height ="350">
+    <img width="700" alt="level1" src="https://user-images.githubusercontent.com/74878952/113529874-8501c800-9579-11eb-950c-68dd3ea427a0.PNG">
 </p>
 
-### Level 2 Tasks: Filter By
+### Level 2 Task: Filter By Value
 
 Use multiple input tags and write JavaScript code to allow search filters. Create UFO sightings searches using the following criteria based on the table columns:
 
