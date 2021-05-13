@@ -1,5 +1,5 @@
 
-# JavaScript Homework - JavaScript and DOM Manipulation
+# JavaScript Project - JavaScript and DOM Manipulation
 
 University of Oregon: Data Analytics Boot Camp repository for homework assignment number 11.
 
