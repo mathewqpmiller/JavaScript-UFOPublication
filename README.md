@@ -33,3 +33,8 @@ Use multiple input tags and write JavaScript code to allow search filters. Creat
  5) shape
 
  Publish html file to GitHub Pages: Level 2  https://mathewqpmiller.github.io/JavaScript-UFO_Sightings_Publication/
+ 
+<p align="center">
+UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 11(JavaScript Challenge)
+Mathew Miller © 2021. All Rights Reserved.
+</p>
