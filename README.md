@@ -3,7 +3,7 @@
 
 ## JavaScript and DOM Manipulation:
 
-For this assignment I needed to build a web page table from a provided dataset of UFO sightings.  Additionaly, the table needed to be filterable based on certain criteria.  In order to do this I created a function in JavaScript that read in the data from one file and return it to the web page.  I then created an event handler that ran several functions to filter the read in table data.  For more detailed explanations of the steps involved, please see the app.js file with my step by step commented code.
+For this project I needed to build a web page table from a provided dataset of UFO sightings.  Additionaly, the table needed to be filterable based on certain criteria.  In order to do this I created a function in JavaScript that read in the data from one file and return it to the web page.  I then created an event handler that ran several functions to filter the read in table data.  For more detailed explanations of the steps involved, please see the app.js file with my step by step commented code.
 
 ### Level 1 Task: Search by Date
 
